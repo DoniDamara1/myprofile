@@ -1,0 +1,94 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container-content{
+    display: flex;
+    background-color: #f1f7f9;
+    height: 80vh;
+}
+.container-navbar{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a61cc;
+    font-size: 20px;
+    
+}
+.brand{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    padding: 15px; 
+
+}
+.nama-depan{
+    color: white;
+    font-weight: 600px;
+}
+.nama-belakang{
+    color: red;
+    font-weight: 400px;
+    padding-left: 4px;
+}
+.ul-navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} 
+.li-navbar{
+    list-style-type:none ;
+    padding: 15px;
+}
+.a-navbar{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.a-navbar:hover{
+    color: red;
+    transition: 0.3s ease-in-out;
+
+}
+.img-content{
+    float: left;
+    margin: 50px;
+    border: 5px solid brown;
+    border-radius: 10%;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    width: 260px;
+    height: 370px;
+}
+.container-footer {
+    height: 10vh;
+    background-color: #0a61c9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-content{
+    position: relative;
+    top: 45px;
+    color: brown;
+    font-size: 30px;
+    text-align: justify;
+    margin-right: 25px;
+
+}
+.text-content h2{
+    font-size: 70px;
+    margin-bottom: 35px;
+}
+
+.text-footer{
+    color: white;
+ 
+}
