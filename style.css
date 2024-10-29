@@ -92,3 +92,12 @@ html {
     color: white;
  
 }
+@media (max-width: 576px) {
+  html {
+    font-size: 50%;
+  }
+  .simply-countdown > .simply-section {
+    padding: 45px;
+    margin: 3;
+  }
+}
